@@ -9,10 +9,10 @@ import javax.swing.JFrame;
 import javax.swing.table.DefaultTableModel;
 
 public class SummaryController{
-    SummaryJDialog summaryJFrame;
-    JFrame frm;
-    DefaultTableModel model;
-    ArrayList<Currency> data;
+    private SummaryJDialog summaryJFrame;
+    private JFrame frm;
+    private DefaultTableModel model;
+    private ArrayList<Currency> data;
 
     public SummaryController(JFrame frm, ArrayList<Currency> data) {
         

@@ -18,14 +18,14 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
 public final class CalculatorController {
-    CalculatorJFrame calculatorJFrame;
-    SummaryController summaryController;
-    CoinGeckoApiClient client;
-    DataMap map;
-    Currency model;
-    Map<String,String> fiatMap, cryptoMap, map1, map2;
-    boolean flag;
-    ArrayList<Currency> dataList;
+    private CalculatorJFrame calculatorJFrame;
+    private SummaryController summaryController;
+    private CoinGeckoApiClient client;
+    private DataMap map;
+    private Currency model;
+    private Map<String,String> fiatMap, cryptoMap, map1, map2;
+    private boolean flag;
+    private ArrayList<Currency> dataList;
     
     public CalculatorController(){
         init();
